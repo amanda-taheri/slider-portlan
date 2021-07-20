@@ -1,0 +1,141 @@
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url("/fonts");
+  src: url("/fonts/IRANSansWeb-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/IRANSansWeb-Bold.woff2") format("woff2"), url("/fonts/IRANSans-Bold-web.woff") format("woff"), url("/fonts/IRANSansWeb-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/IRANSans-Medium.eot");
+  src: url("/fonts/IRANSans-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/IRANSans-Medium.woff2") format("woff2"), url("/fonts/IRANSans-Medium.woff") format("woff"), url("/fonts/IRANSans-Medium.ttf") format("truetype"); }
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 200;
+  src: url("/fonts/IRANSansWeb-Light.eot");
+  src: url("/fonts/IRANSansWeb-Light.eot?#iefix") format("embedded-opentype"), url("/fonts/IRANSansWeb-Light.woff2") format("woff2"), url("/fonts/IRANSansWeb-Light.woff") format("woff"), url("/fonts/IRANSansWeb-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/IRANSansWeb.eot");
+  src: url("/fonts/IRANSansWeb.eot?#iefix") format("embedded-opentype"), url("/fonts/IRANSansWeb.woff2") format("woff2"), url("/fonts/IRANSansWeb.woff") format("woff"), url("/fonts/IRANSansWeb.ttf") format("truetype"); }
+
+*, *::before, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'IRANSans';
+  box-sizing: border-box; }
+
+.container {
+  background-color: #fff;
+  padding-bottom: 10rem;
+  padding-top: 10rem;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+
+.title {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  width: 80rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+  .title--1 {
+    width: 78rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    line-height: 5.5rem; }
+    @media only screen and (max-width: 43.75em) {
+      .title--1 {
+        width: 50%; } }
+  .title--2 {
+    width: 90rem;
+    text-align: center; }
+    @media only screen and (max-width: 43.75em) {
+      .title--2 {
+        width: 50%; } }
+
+.scroll {
+  width: 95%;
+  height: 20rem;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.scroll::-webkit-scrollbar {
+  display: none; }
+
+.slider {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.lang {
+  display: flex;
+  align-items: center;
+  padding: 4rem; }
+  .lang__text {
+    padding: 0.6rem;
+    font-size: 2rem;
+    transform: translate(0, 4%); }
+
+.icon {
+  width: 8rem;
+  height: 4rem; }
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../img/bg-quote-main.webp);
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  text-align: center;
+  background-position: 50% 0;
+  background-size: cover;
+  align-items: center; }
+  .quote__text {
+    width: 70%;
+    margin-bottom: 5rem; }
+  .quote__author {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 100; }
+
+span {
+  color: #58c344; }
+
+h3 {
+  color: #223344;
+  font-size: 2.4rem;
+  text-align: center;
+  text-justify: inter-word; }
+
+p {
+  color: #223344;
+  font-size: 1.9rem;
+  font-weight: 200; }
+
+.qtext {
+  display: block;
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: 100; }
